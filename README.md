@@ -1,4 +1,4 @@
-# Band Generator Documentation
+# Rock Band Generator Documentation
 The Rock Music Band Generator is a console application that allows you to create a rock music band with a unique name or create a name yourself from a provided list of adjective and nouns, as well as give a full lineup of members.
 
 ## Installation Steps
