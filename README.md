@@ -3,7 +3,7 @@ The Rock Music Band Generator is a console application that allows you to create
 
 ## Installation Steps
 1. **Download the Application:**
-   - Click on "Releases" on the right side, then download the latest release (.zip file).
+   - Click on "Releases" on the right side, then download the latest release (band_generator.zip file).
     - Extract the ZIP file to your preferred location on your computer.
 2. **Run the application:**
     - Open the extracted folder.
