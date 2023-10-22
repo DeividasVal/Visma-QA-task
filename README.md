@@ -31,8 +31,16 @@ Once you've launched the application, you'll see a menu with various options. He
    - Select option 9 if you want to remove a band member.
 10. **Exit:**
     - Select option 10 when you're done with the application.
+## Error Handling
+The code includes error handling to provide feedback and prevent issues caused by invalid user inputs:
+- **Invalid Menu Choices**: When a user enters a choice outside the 1-10 range, the code responds with "Invalid choice! Try again."
+- **Invalid Input for Band Member Removal**: When a user enters an invalid band member index to remove (not a valid number or out of range), the code responds with "Invalid band member selection!"
+- **Invalid Input for Adjective and Noun Selection**: When a user enters an invalid index while choosing adjectives and nouns for a custom band name, the code responds with "Invalid adjective selection!" or "Invalid noun selection!"
+- **Full Band**: If a user tries to add a band member when the band is already full, the code responds with "Band is already full! Cannot add more members."
+- **No Members to Remove**: If a user tries to remove a band member when there are no members, the code responds with "The band has no members to remove!"
+- **Invalid Input for Menu Choice**: If the user enters a non-integer value when choosing a menu option, the code responds with "Invalid input! Please enter a valid option."
 ## Additional Information
+The application follows a strict lineup for the band: Vocalist, Electric Guitarist, Drummer and Bass Guitarist.<br>
 You press **ENTER** on your keyboard when you want to input your selection.<br>
-The application follows a strict lineup for the band: Vocalist, Electric Guitarist, Drummer and Bass Guitarist.<br><br>
+![Screenshot_8](https://github.com/DeividasVal/Visma-QA-task/assets/105603552/e61747ca-6498-4fe5-9e96-348cbfcc71d6)<br><br>
 If you encounter any issues while using the application, please contact me for assistance.
-
